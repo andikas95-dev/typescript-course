@@ -1,0 +1,33 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\barokah\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D typescript
+
+PATH: 
+  C:\cmder\bin;C:\cmder\vendor\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\barokah\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\barokah\AppData\Local\Microsoft\WindowsApps;C:\cmder;C:\Users\barokah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\barokah\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\cmder\vendor\git-for-windows\cmd;C:\cmder\vendor\git-for-windows\mingw64\bin;C:\cmder\vendor\git-for-windows\usr\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "typescript-course",
+    "version": "1.0.0",
+    "description": "https://www.youtube.com/playlist?list=PLnQvfeVegcJbjCnML6FdusK-rl-oDRMXJ",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
