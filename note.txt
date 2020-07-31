@@ -1,0 +1,4 @@
+cara menambahkan tsconfig pada project local
+
+ketik pada command
+./node_modules/.bin/tsc --init lalu tekan enter maka akan otomatis dibuat tsconfig.json
