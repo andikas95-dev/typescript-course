@@ -27,4 +27,11 @@ var fullName = function (firstName, lastName) {
     if (lastName === void 0) { lastName = "perdana"; }
     return firstName + " " + lastName;
 };
-console.log(fullName("Andika"));
+// console.log(fullName("Andika"));
+//Optional Parameter
+//di deklarasikan dengan tanda tanya dimana jika nanti tidak diisi nilai yang keluar adalah undefined
+// jika diisi string dan val2 kosong maka akan ada error
+var getName1 = function (val1, val2) {
+    return val1 + " " + val2;
+};
+console.log(getName1("a"));
