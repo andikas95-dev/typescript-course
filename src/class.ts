@@ -32,3 +32,18 @@ export class User {
 // public = bisa di akses di semua class /di luar class tsb
 // protected = hanya bisa di akses dari class tersebut, dan klass turunannya
 // private = hanya bisa di akses dari class itu sendiri
+
+class Admin extends User {
+    read: boolean = true;
+    write: boolean = true;
+
+    getRole() {
+        return {
+            read: this.read,
+            write: this.write,
+        };
+    }
+}
+
+let admin = new Admin("andika", 25);
+console.log(admin);
