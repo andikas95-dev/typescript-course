@@ -41,7 +41,7 @@ const fullName = (firstName: string, lastName: string = "perdana"): string => {
 
 //Optional Parameter
 //di deklarasikan dengan tanda tanya dimana jika nanti tidak diisi nilai yang keluar adalah undefined
-// jika diisi string dan val2 kosong maka akan ada error
+// jika diisi string dan val2 kosong maka akan ada error intinya jika number tidak boleh menggunakan optional
 const getName1 = (val1: string, val2?: string): string => {
     return `${val1} ${val2}`;
 };
