@@ -59,7 +59,23 @@ var Admin = /** @class */ (function (_super) {
             write: this.write,
         };
     };
+    Object.defineProperty(Admin.prototype, "email", {
+        get: function () {
+            return this._email;
+        },
+        set: function (value) {
+            if (value.length < 5) {
+                this._email = "email salah";
+            }
+            else {
+                this._email = value;
+            }
+        },
+        enumerable: false,
+        configurable: true
+    });
     return Admin;
 }(User));
 var admin = new Admin("andika", 25, "081333653541");
+admin.email = "anom";
 console.log(admin);
