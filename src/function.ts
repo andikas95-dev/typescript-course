@@ -32,3 +32,10 @@ const Add: Tambah = (val1: number, val2: number): number => {
 };
 
 console.log(Add(2, 3));
+
+//default parameter
+const fullName = (firstName: string, lastName: string = "perdana"): string => {
+    return `${firstName} ${lastName}`;
+};
+
+console.log(fullName("Andika"));
