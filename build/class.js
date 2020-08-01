@@ -46,10 +46,11 @@ exports.User = User;
 // private = hanya bisa di akses dari class itu sendiri
 var Admin = /** @class */ (function (_super) {
     __extends(Admin, _super);
-    function Admin() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+    function Admin(name, age, phone) {
+        var _this = _super.call(this, name, age) || this;
         _this.read = true;
         _this.write = true;
+        _this.phone = phone;
         return _this;
     }
     Admin.prototype.getRole = function () {
@@ -60,5 +61,5 @@ var Admin = /** @class */ (function (_super) {
     };
     return Admin;
 }(User));
-var admin = new Admin("andika", 25);
+var admin = new Admin("andika", 25, "081333653541");
 console.log(admin);

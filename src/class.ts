@@ -36,6 +36,12 @@ export class User {
 class Admin extends User {
     read: boolean = true;
     write: boolean = true;
+    phone: string;
+
+    constructor(name: string, age: number, phone: string) {
+        super(name, age);
+        this.phone = phone;
+    }
 
     getRole() {
         return {
@@ -45,5 +51,5 @@ class Admin extends User {
     }
 }
 
-let admin = new Admin("andika", 25);
+let admin = new Admin("andika", 25, "081333653541");
 console.log(admin);
