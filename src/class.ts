@@ -45,6 +45,10 @@ class Admin extends User {
         this.phone = phone;
     }
 
+    static getNameRole() {
+        return "hei";
+    }
+
     getRole() {
         return {
             read: this.read,
@@ -65,5 +69,5 @@ class Admin extends User {
     }
 }
 
-let admin = Admin.getRoleName;
+let admin = Admin.getNameRole;
 console.log(admin);

@@ -54,6 +54,9 @@ var Admin = /** @class */ (function (_super) {
         _this.phone = phone;
         return _this;
     }
+    Admin.getNameRole = function () {
+        return "hei";
+    };
     Admin.prototype.getRole = function () {
         return {
             read: this.read,
@@ -78,5 +81,5 @@ var Admin = /** @class */ (function (_super) {
     Admin.getRoleName = "Admin";
     return Admin;
 }(User));
-var admin = Admin.getRoleName;
+var admin = Admin.getNameRole;
 console.log(admin);
