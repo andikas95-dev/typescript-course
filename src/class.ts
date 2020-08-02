@@ -37,7 +37,7 @@ class Admin extends User {
     read: boolean = true;
     write: boolean = true;
     phone: string;
-    private _email: string;
+    private _email: string = "";
 
     constructor(name: string, age: number, phone: string) {
         super(name, age);

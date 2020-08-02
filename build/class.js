@@ -50,6 +50,7 @@ var Admin = /** @class */ (function (_super) {
         var _this = _super.call(this, name, age) || this;
         _this.read = true;
         _this.write = true;
+        _this._email = "";
         _this.phone = phone;
         return _this;
     }
