@@ -75,8 +75,8 @@ var Admin = /** @class */ (function (_super) {
         enumerable: false,
         configurable: true
     });
+    Admin.getRoleName = "Admin";
     return Admin;
 }(User));
-var admin = new Admin("andika", 25, "081333653541");
-admin.email = "anom";
+var admin = Admin.getRoleName;
 console.log(admin);

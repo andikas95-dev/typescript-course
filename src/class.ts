@@ -38,6 +38,7 @@ class Admin extends User {
     write: boolean = true;
     phone: string;
     private _email: string = "";
+    static getRoleName: string = "Admin";
 
     constructor(name: string, age: number, phone: string) {
         super(name, age);
@@ -64,6 +65,5 @@ class Admin extends User {
     }
 }
 
-let admin = new Admin("andika", 25, "081333653541");
-admin.email = "anom";
+let admin = Admin.getRoleName;
 console.log(admin);
